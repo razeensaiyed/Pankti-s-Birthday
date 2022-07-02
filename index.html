@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Pankti</title>
+<script>
+    function myFunction() {
+        document.getElementById("demo").innerHTML = "Oh and dont't forget to have fun.";
+    }
+</script>
+<style>
+body {
+    background-image: radial-gradient(DarkOrchid , SlateBlue, DarkSlateBlue);
+}
+h1 {
+ font-family:Garamond;
+ font-size:65px;
+ color:gold;
+ background-color:black;
+ border:7px ridge white;
+ text-align:center;
+ text-shadow:2px 2px yellow;
+ padding: 20px 20px;
+}
+p.para {
+ font-family:Verdana;
+ color:silver;
+ font-size:30px;
+ text-align:left;
+}
+p.emoji {
+ font-size:50px;
+ letter-spacing:100px;
+ text-align:center;
+}
+</style>
+</head>
+<body style="background-color:lightgreen;">
+<h1>Happy Birthday Ponku</h1>
+<br>
+<p id="demo" class="para">Enjoy this day to it's fullest. Dont worry about anything, you're too awesome for that!</p>
+<button type="button" onclick="myFunction()">Click me to change the paragraph</button>
+<p class="emoji">&#11088; &#127874; &#127873 &#127872;</p>
+<i><p style="color:antiquewhite";>P.S. Sonyeo was born on this date - </p></i>
+<b><p id="ponkss"></p></b>
+<script>
+    const ponktidate = new Date(2006, 6, 3)
+    document.getElementById("ponkss").innerHTML = ponktidate;
+    </script>
+</body>
+</html>
